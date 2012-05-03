@@ -1,9 +1,16 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-
-# Project property files
-.actionScriptProperties
-.flexProperties
-.settings/
-.project
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.bak
+*.orig
+*.eps
+*.euc.tex
+*.nav
+*.out
+*.snm
+*.toc
+slide.pdf
+doc
+orig
