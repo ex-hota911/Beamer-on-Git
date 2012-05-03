@@ -1,0 +1,75 @@
+\documentclass[dvipdfm]{beamer}
+
+% Version 1.1
+% Relase date: May 2, 2010
+% Released at http://www.stattler.com
+% by Rifat Jahan
+
+
+\usepackage{amssymb}
+\usepackage[scaled]{helvet}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{colortbl}
+\usepackage{ulem}
+
+
+\mode<presentation> {
+%\usetheme{Madrid} % My favorite!
+\usetheme{Boadilla} % Pretty neat, soft color.
+%\usetheme{default}
+%\usetheme{Warsaw}
+%\usetheme{Bergen} % This template has nagivation on the left
+%\usetheme{Frankfurt} % Similar to the default with an extra region at the top.
+%\usecolortheme{orchid} % Simple and clean template
+%\usecolortheme{seahorse} % Simple and clean template
+%\usetheme{Darmstadt} % not so good
+% Uncomment the following line if you want page numbers and using Warsaw theme
+% \setbeamertemplate{footline}[page number]
+%\setbeamercovered{transparent}
+%\setbeamercovered{invisible}
+% To remove the navigation symbols from the bottom of slides%
+\setbeamertemplate{navigation symbols}{} 
+}
+
+
+\AtBeginSection[]{%
+  \begin{frame}<beamer>
+    \frametitle{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\def\languagename{English}
+
+
+
+\title[短いタイトル]{長いタイトル}
+\author{名前}
+\date{\today}
+
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+ \frametitle{目次}
+ \tableofcontents
+\end{frame}
+
+
+%\include{introduction}
+%\include{method}
+%\include{result}
+%\include{discussion}
+
+\begin{frame}[allowframebreaks]
+ \tiny
+ \bibliographystyle{alpha}
+ \bibliography{bibliography}
+\end{frame}
+
+\end{document} 
